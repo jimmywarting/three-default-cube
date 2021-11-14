@@ -1,6 +1,6 @@
 import * as Three from 'three';
 import { Howler, Howl } from 'howler';
-import { AssetsService } from './assets-service';
+import { AssetsService } from './assets-service.js';
 
 export const AudioChannelEnums = {
   ambientChannel: 'ambient',

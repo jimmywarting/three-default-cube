@@ -1,5 +1,5 @@
-import { ScrollList } from "../game-objects/built-in/scroll-list";
-import { isDefined } from "../utils/shared";
+import { ScrollList } from "../game-objects/built-in/scroll-list.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseScroll = (object, { scene, scrollLists }) => {
   const { userData } = object;

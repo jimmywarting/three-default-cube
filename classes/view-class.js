@@ -1,18 +1,18 @@
-import { AiService } from "../services/ai-service";
-import { AnimationService } from "../services/animation-service";
-import { AssetsService } from "../services/assets-service";
-import { AudioService } from "../services/audio-service";
-import { CameraService } from "../services/camera-service";
-import { InteractionsService } from "../services/interactions-service";
-import { MathService } from "../services/math-service";
-import { ParticleService } from "../services/particle-service";
-import { PhysicsService } from "../services/physics-service";
-import { RenderService } from "../services/render-service";
-import { SceneService } from "../services/scene-service";
-import { TimeService } from "../services/time-service";
-import { UiService } from "../services/ui-service";
-import { UtilsService } from "../services/utils-service";
-import { VarService } from "../services/var-service";
+import { AiService } from "../services/ai-service.js";
+import { AnimationService } from "../services/animation-service.js";
+import { AssetsService } from "../services/assets-service.js";
+import { AudioService } from "../services/audio-service.js";
+import { CameraService } from "../services/camera-service.js";
+import { InteractionsService } from "../services/interactions-service.js";
+import { MathService } from "../services/math-service.js";
+import { ParticleService } from "../services/particle-service.js";
+import { PhysicsService } from "../services/physics-service.js";
+import { RenderService } from "../services/render-service.js";
+import { SceneService } from "../services/scene-service.js";
+import { TimeService } from "../services/time-service.js";
+import { UiService } from "../services/ui-service.js";
+import { UtilsService } from "../services/utils-service.js";
+import { VarService } from "../services/var-service.js";
 
 export class ViewClass {
   onCreate() {}
