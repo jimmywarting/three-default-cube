@@ -1,9 +1,9 @@
 import * as Three from 'three';
-import { GameObjectClass } from '../../classes/game-object-class';
-import { AssetsService } from '../../services/assets-service';
-import { DebugFlags, DummyDebug } from '../../services/dummy-debug';
-import { RenderService } from '../../services/render-service';
-import { TimeService } from '../../services/time-service';
+import { GameObjectClass } from '../../classes/game-object-class.js';
+import { AssetsService } from '../../services/assets-service.js';
+import { DebugFlags, DummyDebug } from '../../services/dummy-debug.js';
+import { RenderService } from '../../services/render-service.js';
+import { TimeService } from '../../services/time-service.js';
 
 export class SkinnedGameObject extends GameObjectClass {
   mixer = null;

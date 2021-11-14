@@ -1,12 +1,12 @@
 import Stats from 'three/examples/jsm/libs/stats.module';
-import { AssetsService } from './assets-service';
-import { MathService } from './math-service';
-import { MoneyService } from './money-service';
-import { RenderService } from './render-service';
-import { StorageService } from './storage-service';
-import { TimeService } from './time-service';
-import { UtilsService } from './utils-service';
-import { VarService } from './var-service';
+import { AssetsService } from './assets-service.js';
+import { MathService } from './math-service.js';
+import { MoneyService } from './money-service.js';
+import { RenderService } from './render-service.js';
+import { StorageService } from './storage-service.js';
+import { TimeService } from './time-service.js';
+import { UtilsService } from './utils-service.js';
+import { VarService } from './var-service.js';
 
 const LogsNaturalColor = '#ffffff';
 const LogsHighlightColor = '#ffff33';

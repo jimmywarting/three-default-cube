@@ -1,10 +1,10 @@
-import { Text } from "../game-objects/built-in/text";
-import { MathService } from "../services/math-service";
-import { VarService } from "../services/var-service";
-import { replacePlaceholder } from "../utils/replace-placeholder";
-import { AssetsService } from "../services/assets-service";
-import { GameInfoService } from "../services/game-info-service";
-import { isDefined } from "../utils/shared";
+import { Text } from "../game-objects/built-in/text.js";
+import { MathService } from "../services/math-service.js";
+import { VarService } from "../services/var-service.js";
+import { replacePlaceholder } from "../utils/replace-placeholder.js";
+import { AssetsService } from "../services/assets-service.js";
+import { GameInfoService } from "../services/game-info-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseLabel = (object) => {
   const { userData } = object;

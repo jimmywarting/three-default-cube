@@ -1,13 +1,13 @@
 import { mergeBufferGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils';
-import { createArrowHelper, createBoxHelper } from '../utils/helpers';
-import { AssetsService } from './assets-service';
-import { DebugFlags, DummyDebug } from './dummy-debug';
-import { MathService } from './math-service';
-import { RenderService } from './render-service';
-import { TimeService } from './time-service';
-import { UtilsService } from './utils-service';
+import { createArrowHelper, createBoxHelper } from '../utils/helpers.js';
+import { AssetsService } from './assets-service.js';
+import { DebugFlags, DummyDebug } from './dummy-debug.js';
+import { MathService } from './math-service.js';
+import { RenderService } from './render-service.js';
+import { TimeService } from './time-service.js';
+import { UtilsService } from './utils-service.js';
 import { Pathfinding } from 'three-pathfinding';
-import { MathUtils } from '../utils/shared';
+import { MathUtils } from '../utils/shared.js';
 
 class PhysicsServiceClass {
   bodies = [];

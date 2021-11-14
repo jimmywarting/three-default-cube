@@ -1,7 +1,7 @@
 import * as Three from 'three';
-import { AssetsService } from "../services/assets-service";
-import { GameInfoService } from '../services/game-info-service';
-import { isDefined } from '../utils/shared';
+import { AssetsService } from "../services/assets-service.js";
+import { GameInfoService } from '../services/game-info-service.js';
+import { isDefined } from '../utils/shared.js';
 
 export const parseShader = (object) => {
   const { userData } = object;

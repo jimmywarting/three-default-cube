@@ -1,6 +1,6 @@
-import { AssetsService } from "../services/assets-service";
-import { CameraService } from "../services/camera-service";
-import { isDefined } from "../utils/shared";
+import { AssetsService } from "../services/assets-service.js";
+import { CameraService } from "../services/camera-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseCamera = (object) => {
   const { userData } = object;

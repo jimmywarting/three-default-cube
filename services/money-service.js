@@ -1,9 +1,9 @@
 import { Plugins } from '@capacitor/core';
 import { AdSize, AdPosition } from '@capacitor-community/admob';
-import { VarService } from './var-service';
-import { StorageService } from './storage-service';
-import { DebugFlags, DummyDebug } from './dummy-debug';
-import { GameInfoService } from './game-info-service';
+import { VarService } from './var-service.js';
+import { StorageService } from './storage-service.js';
+import { DebugFlags, DummyDebug } from './dummy-debug.js';
+import { GameInfoService } from './game-info-service.js';
 
 const { AdMob, Modals } = Plugins;
 

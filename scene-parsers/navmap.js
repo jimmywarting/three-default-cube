@@ -1,6 +1,6 @@
-import { AssetsService } from "../services/assets-service";
-import { PhysicsService } from "../services/physics-service";
-import { isDefined } from "../utils/shared";
+import { AssetsService } from "../services/assets-service.js";
+import { PhysicsService } from "../services/physics-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseNavmap = (object) => {
   const { userData } = object;

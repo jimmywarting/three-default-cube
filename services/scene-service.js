@@ -1,8 +1,8 @@
 import * as Three from 'three';
-import { AssetsService } from './assets-service';
-import { RenderService } from './render-service';
-import { ParserService } from './parser-service';
-import { GameInfoService } from './game-info-service';
+import { AssetsService } from './assets-service.js';
+import { RenderService } from './render-service.js';
+import { ParserService } from './parser-service.js';
+import { GameInfoService } from './game-info-service.js';
 
 export class SceneServiceClass {
   gameObjectRefs = {};
