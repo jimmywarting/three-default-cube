@@ -2,14 +2,14 @@ import * as Three from 'three';
 import * as uuid from 'uuid';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader';
-import { RenderService } from './render-service';
+import { RenderService } from './render-service.js';
 import {
   preloadFont as troikaPreloadFont,
   Text as TroikaText
 } from 'troika-three-text';
 import { Howl } from 'howler';
-import { AudioService } from './audio-service';
-import { convertMaterialType } from '../utils/materials';
+import { AudioService } from './audio-service.js';
+import { convertMaterialType } from '../utils/materials.js';
 
 const loaders = {
   models: new GLTFLoader(),

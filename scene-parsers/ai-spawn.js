@@ -1,5 +1,5 @@
-import { removePlaceholder } from "../utils/remove-placeholder";
-import { isDefined } from "../utils/shared";
+import { removePlaceholder } from "../utils/remove-placeholder.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseAiSpawn = (object, { aiSpawns }) => {
   const { userData } = object;

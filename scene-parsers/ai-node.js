@@ -1,10 +1,10 @@
 import * as Three from 'three';
-import { AiService } from '../services/ai-service';
-import { AnimationService } from '../services/animation-service';
-import { AssetsService } from "../services/assets-service";
-import { DebugFlags, DummyDebug } from '../services/dummy-debug';
-import { removePlaceholder } from '../utils/remove-placeholder';
-import { isDefined } from '../utils/shared';
+import { AiService } from '../services/ai-service.js';
+import { AnimationService } from '../services/animation-service.js';
+import { AssetsService } from "../services/assets-service.js";
+import { DebugFlags, DummyDebug } from '../services/dummy-debug.js';
+import { removePlaceholder } from '../utils/remove-placeholder.js';
+import { isDefined } from '../utils/shared.js';
 
 export const parseAiNode = (object) => {
   const { userData } = object;
