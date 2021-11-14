@@ -1,5 +1,5 @@
 import * as Three from 'three';
-import { MathService } from '../services/math-service';
+import { MathService } from '../services/math-service.js';
 
 export const MathUtils = Three.MathUtils;
 

@@ -1,6 +1,6 @@
-import { AnimationService } from "../services/animation-service";
-import { AssetsService } from "../services/assets-service";
-import { isDefined } from "../utils/shared";
+import { AnimationService } from "../services/animation-service.js";
+import { AssetsService } from "../services/assets-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseSlideshow = (object) => {
   const { userData } = object;

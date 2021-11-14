@@ -1,6 +1,6 @@
 import * as Three from 'three';
-import { AssetsService } from '../services/assets-service';
-import { getRandomColor } from './shared';
+import { AssetsService } from '../services/assets-service.js';
+import { getRandomColor } from './shared.js';
 
 export const createArrowHelper = (container, id, vector, origin, color) => {
   let helper = container.getObjectByName(id);

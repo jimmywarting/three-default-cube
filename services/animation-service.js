@@ -1,5 +1,5 @@
-import { AssetsService } from './assets-service';
-import { TimeService } from './time-service';
+import { AssetsService } from './assets-service.js';
+import { TimeService } from './time-service.js';
 
 export const animateLinearInverse = (x, duration = 1.0, offset = 1.0) => 
   offset - (Math.min(x, duration) / duration) * offset;
