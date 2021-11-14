@@ -1,7 +1,7 @@
 import * as Three from 'three';
-import { AssetsService } from './assets-service';
-import { MathService } from './math-service';
-import { RenderService } from './render-service';
+import { AssetsService } from './assets-service.js';
+import { MathService } from './math-service.js';
+import { RenderService } from './render-service.js';
 
 class UiServiceClass {
   uiElements = [];

@@ -1,18 +1,18 @@
 import * as Three from 'three';
 import { EffectComposer, RenderPass, EffectPass, BloomEffect, ClearPass } from 'postprocessing';
-import { AnimationService } from './animation-service';
-import { AssetsService } from './assets-service';
-import { CameraService } from './camera-service';
-import { InteractionsService } from './interactions-service';
-import { TimeService } from './time-service';
-import { VarService } from './var-service';
-import { PhysicsService } from './physics-service';
-import { InputService } from './input-service';
-import { UiService } from './ui-service';
-import { DebugFlags, DummyDebug } from './dummy-debug';
-import { AudioService } from './audio-service';
-import { ParticleService } from './particle-service';
-import { GameInfoService } from './game-info-service';
+import { AnimationService } from './animation-service.js';
+import { AssetsService } from './assets-service.js';
+import { CameraService } from './camera-service.js';
+import { InteractionsService } from './interactions-service.js';
+import { TimeService } from './time-service.js';
+import { VarService } from './var-service.js';
+import { PhysicsService } from './physics-service.js';
+import { InputService } from './input-service.js';
+import { UiService } from './ui-service.js';
+import { DebugFlags, DummyDebug } from './dummy-debug.js';
+import { AudioService } from './audio-service.js';
+import { ParticleService } from './particle-service.js';
+import { GameInfoService } from './game-info-service.js';
 
 class RenderServiceClass {
   systemClock = new Three.Clock();

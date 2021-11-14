@@ -1,5 +1,5 @@
-import { AnimationService } from "../services/animation-service";
-import { isDefined } from "../utils/shared";
+import { AnimationService } from "../services/animation-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseRotateXYZ = (object) => {
   const { userData } = object;

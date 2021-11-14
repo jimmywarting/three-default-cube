@@ -1,4 +1,4 @@
-import { AssetsService } from "../services/assets-service";
+import { AssetsService } from "../services/assets-service.js";
 
 export const removePlaceholder = (target) => {
   if (target.geometry) {

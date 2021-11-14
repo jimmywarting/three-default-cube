@@ -1,7 +1,7 @@
 import { MathUtils } from 'three';
-import { AssetsService } from '../services/assets-service';
-import { MathService } from '../services/math-service';
-import { UtilsService } from '../services/utils-service';
+import { AssetsService } from '../services/assets-service.js';
+import { MathService } from '../services/math-service.js';
+import { UtilsService } from '../services/utils-service.js';
 
 export const get3dScreenHeight = (depth = 1.0, camera) => {
   let targetCamera = camera;

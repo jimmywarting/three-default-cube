@@ -1,4 +1,4 @@
-import { isDefined } from "../utils/shared";
+import { isDefined } from "../utils/shared.js";
 
 export const registerGameObject = (object, { gameObjectRefs }) => {
   const { userData } = object;

@@ -1,5 +1,5 @@
 import * as Three from 'three';
-import { DebugFlags, DummyDebug } from './dummy-debug';
+import { DebugFlags, DummyDebug } from './dummy-debug.js';
 
 class MathServiceClass {
   poolVec2 = [];
