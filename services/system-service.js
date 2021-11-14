@@ -2,8 +2,8 @@
 import { Plugins } from '@capacitor/core';
 import { NavigationBar } from '@ionic-native/navigation-bar';
 import { ScreenOrientation } from '@ionic-native/screen-orientation';
-import { StorageService } from './storage-service';
-import { DebugFlags, DummyDebug } from './dummy-debug';
+import { StorageService } from './storage-service.js';
+import { DebugFlags, DummyDebug } from './dummy-debug.js';
 
 const { App, StatusBar } = Plugins;
 

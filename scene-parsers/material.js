@@ -1,6 +1,6 @@
-import { AssetsService } from "../services/assets-service";
-import { VarService } from "../services/var-service";
-import { isDefined } from "../utils/shared";
+import { AssetsService } from "../services/assets-service.js";
+import { VarService } from "../services/var-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseMaterial = (object) => {
   const { userData } = object;

@@ -1,9 +1,9 @@
-import { removePlaceholder } from '../utils/remove-placeholder';
-import { defaultTo, MathUtils } from '../utils/shared';
-import { AssetsService } from './assets-service';
-import { MathService } from './math-service';
-import { RenderService } from './render-service';
-import { TimeService } from './time-service';
+import { removePlaceholder } from '../utils/remove-placeholder.js';
+import { defaultTo, MathUtils } from '../utils/shared.js';
+import { AssetsService } from './assets-service.js';
+import { MathService } from './math-service.js';
+import { RenderService } from './render-service.js';
+import { TimeService } from './time-service.js';
 
 class ParticleServiceClass {
   emitters = [];
