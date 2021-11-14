@@ -1,5 +1,5 @@
 import { NativeStorage } from '@ionic-native/native-storage';
-import { DebugFlags, DummyDebug } from './dummy-debug';
+import { DebugFlags, DummyDebug } from './dummy-debug.js';
 
 class StorageServiceClass {
   reads = 0;

@@ -5,15 +5,15 @@ import {
   DummyDebug,
   GameInfoService
 } from 'three-default-cube';
-import { DemoViewsAndScenes } from './game-views/demo-views-and-scenes';
-import { DemoCamera } from './game-views/demo-camera';
-import { DemoActionsAndUi } from './game-views/demo-actions-and-ui';
-import { DemoDebugging } from './game-views/demo-debugging';
-import { DemoGameObjects } from './game-views/demo-game-objects';
-import { DemoPersistence } from './game-views/demo-persistence';
-import { DemoPhysics } from './game-views/demo-physics';
-import { DemoAi } from './game-views/demo-ai';
-import { DemoUiAlignment } from './game-views/demo-ui-alignment';
+import { DemoViewsAndScenes } from './game-views/demo-views-and-scenes.js';
+import { DemoCamera } from './game-views/demo-camera.js';
+import { DemoActionsAndUi } from './game-views/demo-actions-and-ui.js';
+import { DemoDebugging } from './game-views/demo-debugging.js';
+import { DemoGameObjects } from './game-views/demo-game-objects.js';
+import { DemoPersistence } from './game-views/demo-persistence.js';
+import { DemoPhysics } from './game-views/demo-physics.js';
+import { DemoAi } from './game-views/demo-ai.js';
+import { DemoUiAlignment } from './game-views/demo-ui-alignment.js';
 const { demoId } = Object.fromEntries(new URLSearchParams(window.location.search).entries());
 
 DummyDebug.on(DebugFlags.DEBUG_ENABLE);
