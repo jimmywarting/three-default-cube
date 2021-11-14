@@ -1,10 +1,10 @@
-import { AssetsService } from '../../services/assets-service';
-import { DebugFlags, DummyDebug } from '../../services/dummy-debug';
-import { MathService } from '../../services/math-service';
-import { PhysicsService } from '../../services/physics-service';
-import { RenderService } from '../../services/render-service';
-import { UtilsService } from '../../services/utils-service';
-import { createArrowHelper } from '../../utils/helpers';
+import { AssetsService } from '../../services/assets-service.js';
+import { DebugFlags, DummyDebug } from '../../services/dummy-debug.js';
+import { MathService } from '../../services/math-service.js';
+import { PhysicsService } from '../../services/physics-service.js';
+import { RenderService } from '../../services/render-service.js';
+import { UtilsService } from '../../services/utils-service.js';
+import { createArrowHelper } from '../../utils/helpers.js';
 
 export class AiWrapper {
   target = null;

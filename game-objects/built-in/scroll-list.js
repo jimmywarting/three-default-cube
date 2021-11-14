@@ -1,12 +1,12 @@
 import * as Three from 'three';
 import { MathUtils } from 'three';
-import { GameObjectClass } from '../../classes/game-object-class';
-import { DebugFlags, DummyDebug } from '../../services/dummy-debug';
-import { InteractionEnums, InteractionsService } from '../../services/interactions-service';
-import { MathService } from '../../services/math-service';
-import { TimeService } from '../../services/time-service';
-import { UtilsService } from '../../services/utils-service';
-import { getRandomColor } from '../../utils/shared';
+import { GameObjectClass } from '../../classes/game-object-class.js';
+import { DebugFlags, DummyDebug } from '../../services/dummy-debug.js';
+import { InteractionEnums, InteractionsService } from '../../services/interactions-service.js';
+import { MathService } from '../../services/math-service.js';
+import { TimeService } from '../../services/time-service.js';
+import { UtilsService } from '../../services/utils-service.js';
+import { getRandomColor } from '../../utils/shared.js';
 
 export class ScrollList extends GameObjectClass {
   scrollX = false;
