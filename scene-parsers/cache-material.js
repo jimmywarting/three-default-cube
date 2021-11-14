@@ -1,5 +1,5 @@
-import { AssetsService } from "../services/assets-service";
-import { isDefined } from "../utils/shared";
+import { AssetsService } from "../services/assets-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseCacheMaterial = (object) => {
   const { userData } = object;

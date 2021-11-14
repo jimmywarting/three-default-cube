@@ -1,9 +1,9 @@
-import { AssetsService } from '../services/assets-service';
-import { MathService } from "../services/math-service";
-import { RenderService } from '../services/render-service';
-import { TimeService } from "../services/time-service";
-import { get3dScreenWidth } from "../utils/screen-size";
-import { isDefined, MathUtils } from '../utils/shared';
+import { AssetsService } from '../services/assets-service.js';
+import { MathService } from "../services/math-service.js";
+import { RenderService } from '../services/render-service.js';
+import { TimeService } from "../services/time-service.js";
+import { get3dScreenWidth } from "../utils/screen-size.js";
+import { isDefined, MathUtils } from '../utils/shared.js';
 
 export const parseAlign = (object) => {
   const { userData } = object;

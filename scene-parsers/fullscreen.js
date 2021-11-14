@@ -1,10 +1,10 @@
-import { MathService } from "../services/math-service";
-import { RenderService } from "../services/render-service";
-import { TimeService } from "../services/time-service";
-import { fitToCamera, fitToScreen } from "../utils/screen-size";
-import { mathPi2 } from "../utils/constants";
-import { AssetsService } from "../services/assets-service";
-import { isDefined } from "../utils/shared";
+import { MathService } from "../services/math-service.js";
+import { RenderService } from "../services/render-service.js";
+import { TimeService } from "../services/time-service.js";
+import { fitToCamera, fitToScreen } from "../utils/screen-size.js";
+import { mathPi2 } from "../utils/constants.js";
+import { AssetsService } from "../services/assets-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseFullscreen = (object) => {
   const { userData } = object;

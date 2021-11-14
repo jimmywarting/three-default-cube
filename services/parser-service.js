@@ -1,30 +1,30 @@
 // NOTE See DOCS.md for userData declarations
 
-import { parseCamera } from '../scene-parsers/camera';
-import { parseAction } from '../scene-parsers/action';
-import { parseLabel } from '../scene-parsers/label';
-import { parseScroll } from '../scene-parsers/scroll';
-import { parseIf } from '../scene-parsers/if';
-import { parseIfNot } from '../scene-parsers/if-not';
-import { parseRotateXYZ } from '../scene-parsers/rotate-xyz';
-import { parseMaterial } from '../scene-parsers/material';
-import { parseAnimation } from '../scene-parsers/animation';
-import { parseCacheMaterial } from '../scene-parsers/cache-material';
-import { parseFullscreen } from '../scene-parsers/fullscreen';
-import { parseGameObject, registerGameObject } from '../scene-parsers/game-object';
-import { parseAiNode } from '../scene-parsers/ai-node';
-import { parseAiSpawn } from '../scene-parsers/ai-spawn';
-import { parseShader } from '../scene-parsers/shader';
-import { parseNavmap } from '../scene-parsers/navmap';
-import { parseAlign } from '../scene-parsers/align';
-import { parseSlideshow } from '../scene-parsers/slideshow';
-import { parseSurface } from '../scene-parsers/surface';
-import { parseShading } from '../scene-parsers/shading';
-import { RenderService } from './render-service';
-import { parseLeft } from '../scene-parsers/left';
-import { parseRight } from '../scene-parsers/right';
-import { parseTop } from '../scene-parsers/top';
-import { parseBottom } from '../scene-parsers/bottom';
+import { parseCamera } from '../scene-parsers/camera.js';
+import { parseAction } from '../scene-parsers/action.js';
+import { parseLabel } from '../scene-parsers/label.js';
+import { parseScroll } from '../scene-parsers/scroll.js';
+import { parseIf } from '../scene-parsers/if.js';
+import { parseIfNot } from '../scene-parsers/if-not.js';
+import { parseRotateXYZ } from '../scene-parsers/rotate-xyz.js';
+import { parseMaterial } from '../scene-parsers/material.js';
+import { parseAnimation } from '../scene-parsers/animation.js';
+import { parseCacheMaterial } from '../scene-parsers/cache-material.js';
+import { parseFullscreen } from '../scene-parsers/fullscreen.js';
+import { parseGameObject, registerGameObject } from '../scene-parsers/game-object.js';
+import { parseAiNode } from '../scene-parsers/ai-node.js';
+import { parseAiSpawn } from '../scene-parsers/ai-spawn.js';
+import { parseShader } from '../scene-parsers/shader.js';
+import { parseNavmap } from '../scene-parsers/navmap.js';
+import { parseAlign } from '../scene-parsers/align.js';
+import { parseSlideshow } from '../scene-parsers/slideshow.js';
+import { parseSurface } from '../scene-parsers/surface.js';
+import { parseShading } from '../scene-parsers/shading.js';
+import { RenderService } from './render-service.js';
+import { parseLeft } from '../scene-parsers/left.js';
+import { parseRight } from '../scene-parsers/right.js';
+import { parseTop } from '../scene-parsers/top.js';
+import { parseBottom } from '../scene-parsers/bottom.js';
 
 class ParserServiceClass {
   parseModel({

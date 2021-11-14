@@ -1,11 +1,11 @@
-import { AssetsService } from '../services/assets-service';
-import { MathService } from "../services/math-service";
-import { RenderService } from '../services/render-service';
-import { TimeService } from "../services/time-service";
-import { VarService } from '../services/var-service';
-import { get3dScreenWidth } from "../utils/screen-size";
-import { UiService } from '../services/ui-service';
-import { isDefined } from '../utils/shared';
+import { AssetsService } from '../services/assets-service.js';
+import { MathService } from "../services/math-service.js";
+import { RenderService } from '../services/render-service.js';
+import { TimeService } from "../services/time-service.js";
+import { VarService } from '../services/var-service.js';
+import { get3dScreenWidth } from "../utils/screen-size.js";
+import { UiService } from '../services/ui-service.js';
+import { isDefined } from '../utils/shared.js';
 
 export const parseLeft = (object) => {
   const { userData } = object;
