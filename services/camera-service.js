@@ -1,8 +1,8 @@
 import * as Three from 'three';
-import { AssetsService } from './assets-service';
-import { MathService } from './math-service';
-import { RenderService } from './render-service';
-import { UtilsService } from './utils-service';
+import { AssetsService } from './assets-service.js';
+import { MathService } from './math-service.js';
+import { RenderService } from './render-service.js';
+import { UtilsService } from './utils-service.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 export const OcclusionStepEnum = {

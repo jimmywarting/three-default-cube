@@ -1,6 +1,6 @@
 import * as Three from 'three';
-import { AssetsService } from './assets-service';
-import { GameInfoService } from './game-info-service';
+import { AssetsService } from './assets-service.js';
+import { GameInfoService } from './game-info-service.js';
 
 class UtilsServiceClass {
   poolRaycaster = [];

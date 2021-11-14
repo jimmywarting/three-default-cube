@@ -1,5 +1,5 @@
-import { GameInfoService } from "./game-info-service";
-import { StorageService } from "./storage-service";
+import { GameInfoService } from "./game-info-service.js";
+import { StorageService } from "./storage-service.js";
 
 class VarServiceClass {
   variables = {};

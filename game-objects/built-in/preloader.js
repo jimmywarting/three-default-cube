@@ -1,11 +1,11 @@
 import * as Three from 'three';
-import { GameObjectClass } from "../../classes/game-object-class";
-import { AssetsService } from "../../services/assets-service";
-import { RenderService } from "../../services/render-service";
-import { TimeService } from "../../services/time-service";
-import { fitToCamera } from "../../utils/screen-size";
-import { AnimationService } from '../../services/animation-service';
-import { GameInfoService } from '../../services/game-info-service';
+import { GameObjectClass } from "../../classes/game-object-class.js";
+import { AssetsService } from "../../services/assets-service.js";
+import { RenderService } from "../../services/render-service.js";
+import { TimeService } from "../../services/time-service.js";
+import { fitToCamera } from "../../utils/screen-size.js";
+import { AnimationService } from '../../services/animation-service.js';
+import { GameInfoService } from '../../services/game-info-service.js';
 
 export class Preloader extends GameObjectClass {
   spinnerTexture = null;

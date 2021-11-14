@@ -1,6 +1,6 @@
-import { AssetsService } from "../services/assets-service";
-import { InteractionEnums, InteractionsService } from "../services/interactions-service";
-import { isDefined } from "../utils/shared";
+import { AssetsService } from "../services/assets-service.js";
+import { InteractionEnums, InteractionsService } from "../services/interactions-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseAction = (object, parserPayload) => {
   const { userData } = object;

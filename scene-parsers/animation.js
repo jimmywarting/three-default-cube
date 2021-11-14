@@ -1,5 +1,5 @@
-import { GameInfoService } from "../services/game-info-service";
-import { isDefined } from "../utils/shared";
+import { GameInfoService } from "../services/game-info-service.js";
+import { isDefined } from "../utils/shared.js";
 
 export const parseAnimation = (object) => {
   const { userData } = object;
