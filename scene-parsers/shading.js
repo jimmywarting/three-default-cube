@@ -1,7 +1,7 @@
-import { AssetsService } from '../services/assets-service';
-import { VarService } from '../services/var-service';
-import { convertMaterialType } from '../utils/materials';
-import { isDefined } from '../utils/shared';
+import { AssetsService } from '../services/assets-service.js';
+import { VarService } from '../services/var-service.js';
+import { convertMaterialType } from '../utils/materials.js';
+import { isDefined } from '../utils/shared.js';
 
 export const parseShading = (object) => {
   const { userData } = object;

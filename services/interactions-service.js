@@ -1,6 +1,6 @@
-import { MathService } from './math-service';
-import { RenderService } from './render-service';
-import { UtilsService } from './utils-service';
+import { MathService } from './math-service.js';
+import { RenderService } from './render-service.js';
+import { UtilsService } from './utils-service.js';
 
 export const InteractionEnums = {
   eventClick: 'interactionServiceClick',
